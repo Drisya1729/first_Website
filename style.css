@@ -146,7 +146,7 @@ ul{
   background-color: greenyellow;
 }
 #welcome{
-  width: 57%;
+  width: 58%;
   float: left;
   background-color: rgb(73, 252, 73);
   height:400px;
@@ -162,19 +162,17 @@ ul{
  background-color: rgb(73, 252, 73);
  height:400px;
 }
-.photo-item{
-  margin:10px;
-}
+
 .photo-row{
   display:flex;
   flex-direction: row;
-  margin-right: 10px;
 }
-
+#photo-wrap{
+ margin:5%;
+}
 .photo-row img{
-  height:150px;
-  width: 150px;
-  margin:3px;
+  width:80%;
+  height:auto;
   flex:2;
   flex-basis: 100%;
 }
